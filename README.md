@@ -1,73 +1,73 @@
 
-Program Description – Hospital Management System
+# Hospital Management System
 
 This C program implements a Hospital Management System that helps manage doctors, patients, admissions, discharges, billing, and hospital resources such as beds and wards.
 
 
 
- 🗝️ Key Features:
+ ## 🗝️ Key Features:
 
 
- 🥼 Doctor Management
+ **🥼 Doctor Management**
 
-Input doctor details (name, fee per day, treatment specialization).
+- Input doctor details (name, fee per day, treatment specialization).
 
-Update doctor information (name, fee, or treatment).
+- Update doctor information (name, fee, or treatment).
 
-Track the number of patients under each doctor.
+- Track the number of patients under each doctor.
 
- 🛌 Patient Management
+**🛌 Patient Management**
 
-Admit new patients by entering their personal details (name, age, ailment).
+- Admit new patients by entering their personal details (name, age, ailment).
 
-Assign patients to doctors based on specialization.
+- Assign patients to doctors based on specialization.
 
-Allocate patients to wards (800/day) or beds (1200/day) depending on availability.
+- Allocate patients to wards (800/day) or beds (1200/day) depending on availability.
 
-Search for patients by name and display their admission details.
+- Search for patients by name and display their admission details.
 
-Discharge patients and free up their allocated ward/bed.
+- Discharge patients and free up their allocated ward/bed.
 
- 🧾 Hospital Reporting
+**🧾 Hospital Reporting**
 
-Generate reports showing doctor details (name, fee, patient count).
+- Generate reports showing doctor details (name, fee, patient count).
 
-Display the number of admitted patients and available beds/wards.
+- Display the number of admitted patients and available beds/wards.
 
- 📠 Billing System
+**📠 Billing System**
 
-Calculate bills based on:
+- Calculate bills based on:
 
-Doctor’s daily fee .
+- Doctor’s daily fee .
 
-Hospital charges .
+- Hospital charges .
 
 Show a detailed breakdown of doctor fees, hospital charges, and total bill.
 
- 🌐 Patient Records
+**🌐 Patient Records**
 
 Display a list of all patients with their name, age, doctor, and ailment.
 
- 🧬 Core Data Structures
+## 🧬 Core Data Structures
 
-Patient struct – stores patient details (name, age, ailment, doctor, assigned bed/ward).
+- Patient struct – stores patient details (name, age, ailment, doctor, assigned bed/ward).
 
-Doctor struct – stores doctor details (name, fees, specialization, number of patients).
+- Doctor struct – stores doctor details (name, fees, specialization, number of patients).
 
- 🖇️ Main Menu Options
+## 🖇️ Main Menu Options
 
-Add Patient
+- Add Patient
 
-Search Patient Details
+- Search Patient Details
 
-Update Doctor Information
+- Update Doctor Information
 
-Generate Hospital Report
+- Generate Hospital Report
 
-Discharge Patient
+- Discharge Patient
 
-Billing System
+- Billing System
 
-Show All Patients
+- Show All Patients
 
-Exit
+- Exit
